@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / office app temp + lock files
+.~lock.*#
+*.tmp
+*.swp
+*~
+
+# Dropbox
+.dropbox
+.dropbox.attr
