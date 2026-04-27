@@ -276,50 +276,68 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
     <div class="slide-cover">
       <div class="slide-label">02 · Current State</div>
       <h1 class="title">Where the workflows break today</h1>
-      <p class="lede">Two interactive walkthroughs of the workflows as they exist today — the first stops on the meeting tour. Open each in a new tab to navigate; we'll return to this deck to discuss.</p>
+      <p class="lede">Five interactive walkthroughs of the workflows as they run today — the live reference set Jonah and the engineering bench are working against. Open each in a new tab to navigate; we'll return to this deck to discuss.</p>
     </div>
 
-    <div class="workflow-tiles">
+    <div class="workflow-tiles" style="grid-template-columns:repeat(3, 1fr); gap:1.1rem;">
 
       <div class="wf-tile">
-        <div class="preview">
-          <span class="badge-corner">Current State</span>
-          <svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
-            <rect width="400" height="240" fill="#F2EBDC"/>
-            <rect x="40" y="100" width="320" height="6" fill="#C4581A"/>
-            <rect x="40" y="106" width="320" height="2" fill="#7A1A0F"/>
-            <text x="40" y="80" font-family="DM Sans, Georgia, serif" font-weight="700" font-size="28" fill="#0B1833" letter-spacing="-0.5">Pay Applications</text>
-            <text x="40" y="135" font-family="Arial, sans-serif" font-size="9" fill="#7A6F5C" letter-spacing="3">LV CONSTRUCTION · SIX PEAK CAPITAL</text>
-            <text x="40" y="153" font-family="Arial, sans-serif" font-size="9" fill="#7A6F5C" letter-spacing="3">CURRENT STATE WORKFLOW VISUAL</text>
-          </svg>
+        <div class="preview" style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); min-height:auto; padding:1.4rem 1.3rem; justify-content:flex-start; align-items:flex-start; flex-direction:column; text-align:left;">
+          <span class="badge-corner" style="background:rgba(232,147,90,0.18); color:var(--rust-glow);">Current State</span>
+          <div style="font-family:var(--font-display); font-weight:700; font-size:1.4rem; color:var(--ghost-warm); letter-spacing:-0.01em; line-height:1.15; margin-top:1.6rem;">Pay Applications</div>
+          <div style="font-size:0.66rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.18em; margin-top:0.5rem;">Workflow 01</div>
         </div>
         <div class="body">
-          <div class="meta">Workflow 01</div>
-          <h3>Pay Applications · Current Workflow</h3>
           <p>Walk the GC pay-app flow as it runs today: subs submit, the office reviews, the lender signs off, and the draw posts. Every step is a paper-handoff with a manual reconciliation behind it.</p>
-          <a class="open" href="pay-apps-workflow.html" target="_blank">Open walkthrough →</a>
+          <a class="open" href="pay-apps-master-reference.html" target="_blank">Open walkthrough →</a>
         </div>
       </div>
 
       <div class="wf-tile">
-        <div class="preview">
-          <span class="badge-corner">Current State</span>
-          <svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
-            <rect width="400" height="240" fill="#F2EBDC"/>
-            <rect x="40" y="20" width="320" height="40" fill="#0B1833"/>
-            <text x="58" y="48" font-family="DM Sans, Georgia, serif" font-size="22" font-weight="800" fill="#F2EBDC" letter-spacing="-0.5">LV</text>
-            <text x="40" y="100" font-family="DM Sans, Georgia, serif" font-size="22" font-weight="700" fill="#0B1833" letter-spacing="-0.5">Subcontractor</text>
-            <text x="40" y="125" font-family="DM Sans, Georgia, serif" font-size="22" font-weight="700" fill="#0B1833" letter-spacing="-0.5">Contracts</text>
-            <text x="40" y="150" font-family="Arial, sans-serif" font-size="9" font-weight="500" fill="#7A6F5C" letter-spacing="3">CURRENT WORKFLOW VISUAL</text>
-            <rect x="40" y="170" width="40" height="3" fill="#C4581A"/>
-            <text x="40" y="195" font-family="Arial, sans-serif" font-size="9" fill="#5A4F3F" letter-spacing="2">LV CONSTRUCTION · SIX PEAK CAPITAL</text>
-          </svg>
+        <div class="preview" style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); min-height:auto; padding:1.4rem 1.3rem; justify-content:flex-start; align-items:flex-start; flex-direction:column; text-align:left;">
+          <span class="badge-corner" style="background:rgba(232,147,90,0.18); color:var(--rust-glow);">Current State</span>
+          <div style="font-family:var(--font-display); font-weight:700; font-size:1.4rem; color:var(--ghost-warm); letter-spacing:-0.01em; line-height:1.15; margin-top:1.6rem;">Subcontractor Contracts</div>
+          <div style="font-size:0.66rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.18em; margin-top:0.5rem;">Workflow 02</div>
         </div>
         <div class="body">
-          <div class="meta">Workflow 02</div>
-          <h3>Subcontractor Contracts · Current Workflow</h3>
           <p>Trace the subcontractor onboarding and contracting path as it operates today. Watch where context gets lost between estimating, project management, and accounts payable.</p>
-          <a class="open" href="contracts-workflow.html" target="_blank">Open walkthrough →</a>
+          <a class="open" href="contracts-master-reference.html" target="_blank">Open walkthrough →</a>
+        </div>
+      </div>
+
+      <div class="wf-tile">
+        <div class="preview" style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); min-height:auto; padding:1.4rem 1.3rem; justify-content:flex-start; align-items:flex-start; flex-direction:column; text-align:left;">
+          <span class="badge-corner" style="background:rgba(232,147,90,0.18); color:var(--rust-glow);">Current State</span>
+          <div style="font-family:var(--font-display); font-weight:700; font-size:1.4rem; color:var(--ghost-warm); letter-spacing:-0.01em; line-height:1.15; margin-top:1.6rem;">RFIs</div>
+          <div style="font-size:0.66rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.18em; margin-top:0.5rem;">Workflow 03</div>
+        </div>
+        <div class="body">
+          <p>Walk the RFI loop from field question to designer response and back into the field. Watch how unresolved threads queue against the schedule and where the same question gets re-asked.</p>
+          <a class="open" href="rfis-master-reference.html" target="_blank">Open walkthrough →</a>
+        </div>
+      </div>
+
+      <div class="wf-tile">
+        <div class="preview" style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); min-height:auto; padding:1.4rem 1.3rem; justify-content:flex-start; align-items:flex-start; flex-direction:column; text-align:left;">
+          <span class="badge-corner" style="background:rgba(232,147,90,0.18); color:var(--rust-glow);">Current State</span>
+          <div style="font-family:var(--font-display); font-weight:700; font-size:1.4rem; color:var(--ghost-warm); letter-spacing:-0.01em; line-height:1.15; margin-top:1.6rem;">Submittals</div>
+          <div style="font-size:0.66rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.18em; margin-top:0.5rem;">Workflow 04</div>
+        </div>
+        <div class="body">
+          <p>Trace the submittal flow from sub package through review, mark-ups, and resubmission. Watch how revision history fragments across email and where product approvals stall the buyout sequence.</p>
+          <a class="open" href="submittals-master-reference.html" target="_blank">Open walkthrough →</a>
+        </div>
+      </div>
+
+      <div class="wf-tile">
+        <div class="preview" style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); min-height:auto; padding:1.4rem 1.3rem; justify-content:flex-start; align-items:flex-start; flex-direction:column; text-align:left;">
+          <span class="badge-corner" style="background:rgba(232,147,90,0.18); color:var(--rust-glow);">Current State</span>
+          <div style="font-family:var(--font-display); font-weight:700; font-size:1.4rem; color:var(--ghost-warm); letter-spacing:-0.01em; line-height:1.15; margin-top:1.6rem;">CR · CO · PCCO</div>
+          <div style="font-size:0.66rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.18em; margin-top:0.5rem;">Workflow 05</div>
+        </div>
+        <div class="body">
+          <p>Trace how change requests move from field discovery into a priced change order and on to a Prime Contract Change Order with the owner. Watch where document threads, pricing rounds, and approvals fan out across roles.</p>
+          <a class="open" href="cr-co-pcco-master-reference.html" target="_blank">Open walkthrough →</a>
         </div>
       </div>
 
@@ -331,7 +349,7 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
     <div class="slide-cover">
       <div class="slide-label">03 · Workflow Capture · Bottoms-Up Discovery</div>
       <h1 class="title">Capturing every recurring workflow at LV — so we build against <em>real work</em>, not assumed work</h1>
-      <p class="lede">Pay Apps and Subcontractor Contracts (Slide 02) are the two flows we've already mapped. To find the rest, Grady stood up an internal capture tool the entire LV team is filling in over the next few weeks. The output is the prioritized backlog Mission Control builds against.</p>
+      <p class="lede">Slide 02 holds the five flows we've already mapped end-to-end (Pay Apps, Contracts, RFIs, Submittals, and CR · CO · PCCO). To find the rest, Grady stood up an internal capture tool the entire LV team is filling in over the next few weeks. The output is the prioritized backlog Mission Control builds against.</p>
     </div>
 
     <div style="display:grid; grid-template-columns:1.4fr 1fr; gap:1.5rem; margin-bottom:1.5rem;">
@@ -430,16 +448,30 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
         <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.22em; color:var(--rust-glow); margin-bottom:0.55rem;">Driving the build</div>
         <h3 style="font-family:var(--font-display); font-size:1.55rem; font-weight:700; color:var(--ghost-warm); line-height:1.2; margin-bottom:0.3rem;">Jonah Dobkin</h3>
         <div style="font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.14em; color:var(--rust-glow); margin-bottom:0.85rem;">Assistant Project Manager · LV / AI Mission Control Lead</div>
-        <div style="background:rgba(94,123,155,0.1); border:1px dashed rgba(232,147,90,0.4); border-radius:8px; padding:0.85rem 1rem; font-size:0.86rem; color:var(--steel); line-height:1.65; font-style:italic;">
-          <span style="display:inline-block; font-style:normal; font-size:0.62rem; font-weight:700; text-transform:uppercase; letter-spacing:0.18em; padding:3px 9px; border-radius:4px; background:rgba(196,88,26,0.2); color:var(--rust-glow); margin-right:8px; vertical-align:middle;">Add bio</span>
-          Drop in Jonah's bio: background, what brought him to LV, scope of what he's now leading on the AI build, and why he's the right person at the center of Mission Control.
-        </div>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.55rem;">
+          <li style="padding-left:18px; position:relative; font-size:0.86rem; color:var(--steel); line-height:1.6;">
+            <span style="position:absolute; left:0; top:9px; width:10px; height:2px; background:var(--rust-glow); border-radius:2px;"></span>
+            <strong style="color:var(--ghost-warm);">Industry pedigree.</strong> Father Eric Dobkin is a Los Angeles GC and developer (high-end hillside custom homes); Jonah joined that business after college as owner's representative, development manager, and superintendent on a 15-unit ground-up multifamily project in Valley Village.
+          </li>
+          <li style="padding-left:18px; position:relative; font-size:0.86rem; color:var(--steel); line-height:1.6;">
+            <span style="position:absolute; left:0; top:9px; width:10px; height:2px; background:var(--rust-glow); border-radius:2px;"></span>
+            <strong style="color:var(--ghost-warm);">Finance &amp; economics</strong> from the University of Oregon; previously interned in wealth management — brings a financial-control lens to the operational and technology work he now drives at LV.
+          </li>
+          <li style="padding-left:18px; position:relative; font-size:0.86rem; color:var(--steel); line-height:1.6;">
+            <span style="position:absolute; left:0; top:9px; width:10px; height:2px; background:var(--rust-glow); border-radius:2px;"></span>
+            <strong style="color:var(--ghost-warm);">APM scope at LV</strong> across buyout, RFIs, submittals, scheduling, budget tracking, and project correspondence — the daily exposure to the workflows the AI program is rebuilding.
+          </li>
+          <li style="padding-left:18px; position:relative; font-size:0.86rem; color:var(--steel); line-height:1.6;">
+            <span style="position:absolute; left:0; top:9px; width:10px; height:2px; background:var(--rust-glow); border-radius:2px;"></span>
+            <strong style="color:var(--ghost-warm);">Leads LV's AI initiative.</strong> Pairs daily hands-on work in the Claude ecosystem and ongoing self-directed coursework with first-hand workflow knowledge to identify where automation creates real operational leverage.
+          </li>
+        </ul>
       </div>
     </div>
 
     <div class="ph-banner">
       <div class="ic">!</div>
-      <div><strong>Working draft.</strong> Drop the demo recording / screenshots and the engineering team detail before May 5.</div>
+      <div><strong>Working draft.</strong> Demo recording / screenshots still to be dropped in before May 5.</div>
     </div>
 
     <div class="workflow-tiles" style="margin-bottom:1.25rem;">
@@ -458,14 +490,68 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
     <h3 style="font-family:var(--font-display); font-size:1.15rem; font-weight:700; color:var(--denim); margin:1.25rem 0 0.7rem;">Engineering Bench Supporting Jonah</h3>
     <p style="font-size:0.88rem; color:var(--gray-dk); max-width:820px; margin-bottom:1rem;">Brief context on the engineers helping Jonah — who's on the team, what each owns, and how the bench scales with the Mission Control phase rollout.</p>
 
-    <div class="ph-banner" style="background:linear-gradient(135deg, rgba(94,123,155,0.06), rgba(94,123,155,0.02)); border-color:rgba(94,123,155,0.4);">
-      <div class="ic" style="background:var(--space);">i</div>
-      <div><strong style="color:var(--space);">Add content:</strong> Names &amp; roles of the engineers supporting Jonah, how the team is organized (in-house vs. contractor, full-time vs. fractional), what each engineer is currently driving, and the gating hires before Phase 02 / Phase 03 of the rollout.</div>
-    </div>
+    <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem;">
 
-    <div class="ph-slot" style="min-height:180px;">
-      <span class="ph-tag">Engineering team detail</span>
-      <p>Drop the team breakdown here — could be a roster table, an org snapshot, or a short paragraph per engineer with what they own.</p>
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.25rem 1.4rem 1.35rem; position:relative; box-shadow:0 4px 20px rgba(0,0,0,0.04);">
+        <div style="position:absolute; top:0; left:0; height:3px; width:42px; background:var(--rust); border-radius:0 0 4px 0;"></div>
+        <h4 style="font-family:var(--font-display); font-size:1.05rem; font-weight:700; color:var(--denim); margin:0.25rem 0 0.2rem;">Aydin Chagal</h4>
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.16em; color:var(--rust); margin-bottom:0.85rem;">Forward Deployed Engineer · Palantir</div>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.45rem;">
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Leads Palantir's engagement with the largest home healthcare company in New York State — building AI-driven systems that automate manual referral intake and other operational bottlenecks for clinical staff.
+          </li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Computer science, University of Michigan; previously at Booz Allen building software for U.S. naval submarines.
+          </li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Customer-facing engineering DNA — sits with end users, hears their pain points first-hand, and ships software that solves the problem in front of them rather than the one on paper.
+          </li>
+        </ul>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.25rem 1.4rem 1.35rem; position:relative; box-shadow:0 4px 20px rgba(0,0,0,0.04);">
+        <div style="position:absolute; top:0; left:0; height:3px; width:42px; background:var(--rust); border-radius:0 0 4px 0;"></div>
+        <h4 style="font-family:var(--font-display); font-size:1.05rem; font-weight:700; color:var(--denim); margin:0.25rem 0 0.2rem;">Naveen Mirapuri</h4>
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.16em; color:var(--rust); margin-bottom:0.85rem;">Forward Deployed Engineer · Palantir</div>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.45rem;">
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Industrials &amp; Manufacturing team — embeds on factory floors to build AI tooling and deploy it across plants alongside the technicians who use it.
+          </li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Previously on Palantir's healthcare team; earlier at Amazon, building High Performance Computing systems on AWS.
+          </li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Track record in shipping production software where the end user is non-technical and the cost of getting it wrong is operational, not theoretical.
+          </li>
+        </ul>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.25rem 1.4rem 1.35rem; position:relative; box-shadow:0 4px 20px rgba(0,0,0,0.04);">
+        <div style="position:absolute; top:0; left:0; height:3px; width:42px; background:var(--rust); border-radius:0 0 4px 0;"></div>
+        <h4 style="font-family:var(--font-display); font-size:1.05rem; font-weight:700; color:var(--denim); margin:0.25rem 0 0.2rem;">Leo Emmanuel</h4>
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.16em; color:var(--rust); margin-bottom:0.85rem;">Product Manager · Apple Maps</div>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.45rem;">
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            PM at Apple Maps — experience spanning roadmap buildout, implementation planning, and business development.
+          </li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Economics, University of Michigan, with a minor in Computer Science.
+          </li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.55;">
+            <span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>
+            Previously at a startup focused on script optimization for Hollywood studios and agencies — the platform he helped shape cut clients' script-management time by 30%.
+          </li>
+        </ul>
+      </div>
+
     </div>
   </section>
 
