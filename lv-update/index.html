@@ -228,8 +228,8 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
     <div class="meta">
       <div class="now-showing">Now showing<span class="name" id="topbarName">Team Update</span></div>
       <div class="progress">
-        <div class="bar"><div class="fill" id="progressFill" style="width:20%;"></div></div>
-        <div class="counter"><span class="cur" id="counterCur">01</span> / <span id="counterTot">05</span></div>
+        <div class="bar"><div class="fill" id="progressFill" style="width:16.67%;"></div></div>
+        <div class="counter"><span class="cur" id="counterCur">01</span> / <span id="counterTot">06</span></div>
       </div>
     </div>
   </div>
@@ -243,6 +243,7 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
     <button data-slide="2"><span class="ix">03</span>Project Buyout</button>
     <button data-slide="3"><span class="ix">04</span>Pending Closings</button>
     <button data-slide="4"><span class="ix">05</span>Extended BD</button>
+    <button data-slide="5"><span class="ix">06</span>Reporting Outputs</button>
   </div>
 </nav>
 
@@ -700,13 +701,164 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
     </div>
   </section>
 
+  <!-- SLIDE 06 · REPORTING OUTPUTS -->
+  <section class="slide" id="slide-5">
+    <div class="slide-cover">
+      <div class="slide-label">06 · Reporting · What Flows to Steyn</div>
+      <h1 class="title">Level-set <em>·</em> the LV reporting outputs that matter to Steyn</h1>
+      <p class="lede">A quick alignment on the LV Q1 2026 Board Package and the cadence for what flows from LV operating reporting into the Six Peak / Steyn board view going forward. The intent is to land on a shared definition of the small set of outputs that actually drive the conversation each cycle.</p>
+    </div>
+
+    <!-- THE ARTIFACT -->
+    <div style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); color:var(--ghost-warm); border-radius:14px; padding:1.85rem 2rem 1.65rem; margin-bottom:1.5rem; position:relative; overflow:hidden; box-shadow:0 10px 40px rgba(11,24,51,0.15);">
+      <div style="position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--rust) 0%, var(--rust-glow) 50%, transparent 100%);"></div>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:1rem;">
+        <div>
+          <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.22em; color:var(--rust-glow); margin-bottom:0.45rem;">The Source Artifact</div>
+          <h3 style="font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--ghost-warm); line-height:1.2; margin-bottom:0.35rem;">Q1 2026 LV Board Package</h3>
+          <p style="color:var(--steel); font-size:0.86rem; opacity:0.9;">A 40-slide quarterly deep-dive across operations, financials, projects, risk, and forward priorities. This is the canonical artifact behind LV's reporting; what Steyn sees is a curated subset.</p>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(5, 1fr); gap:0.55rem; padding-top:1rem; border-top:1px solid rgba(191,199,218,0.15);">
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 01</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Executive Summary</div>
+        </div>
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 02</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Company Story</div>
+        </div>
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 03</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">KPI Dashboard</div>
+        </div>
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 04</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Financials</div>
+        </div>
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 05</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Projects</div>
+        </div>
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 06</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Risk &amp; Compliance</div>
+        </div>
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 07</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Board Discussion</div>
+        </div>
+        <div style="background:rgba(196,88,26,0.1); border:1px solid rgba(232,147,90,0.25); border-radius:8px; padding:0.7rem 0.75rem;">
+          <div style="font-size:0.6rem; color:var(--rust-glow); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Section 08</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Q2 Priorities</div>
+        </div>
+        <div style="background:rgba(94,123,155,0.1); border:1px solid rgba(191,199,218,0.2); border-radius:8px; padding:0.7rem 0.75rem; grid-column:span 2;">
+          <div style="font-size:0.6rem; color:var(--steel); font-weight:700; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:0.25rem;">Appendix A</div>
+          <div style="font-size:0.78rem; color:var(--ghost-warm); font-weight:600; line-height:1.3;">Monthly Business Reporting · WIP, balance sheet, KPI scorecard, risk register</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TWO-CADENCE REPORTING -->
+    <h3 style="font-family:var(--font-display); font-size:1.15rem; font-weight:700; color:var(--denim); margin:1.5rem 0 0.85rem;">Reporting Cadence Going Forward</h3>
+    <div class="grid2" style="margin-bottom:1.25rem;">
+      <div class="card">
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.18em; color:var(--rust); margin-bottom:0.4rem;">Monthly · Skinny Deck</div>
+        <h3>~30 minutes · KPI trending &amp; exceptions</h3>
+        <p>A concise monthly update for IC-context. Leads with the headline KPIs (revenue, margin, cash, bonding, backlog) trending against budget and prior period, plus exception reporting on any active job or pipeline item that moved meaningfully. Built as a tighter subset of the quarterly package, not a separate deliverable.</p>
+        <ul>
+          <li>Headline financial KPIs vs. budget and prior period</li>
+          <li>Pipeline + backlog deltas since last month</li>
+          <li>Active job exceptions (schedule, buyout, change orders)</li>
+          <li>Forward-look on closings and starts in the next 60 days</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.18em; color:var(--rust); margin-bottom:0.4rem;">Quarterly · Full Board Package</div>
+        <h3>The deeper dive · this Q1 2026 deck is the model</h3>
+        <p>The full quarterly artifact, scheduled after quarter close so KPIs reflect a complete three-month period rather than a single-month snapshot. Distributed as a pre-read in advance of the meeting with the appendix as supporting reference. The narrative front sections (Company Story, LV 2.0 direction) carry the strategic story; the back sections carry the financial detail.</p>
+        <ul>
+          <li>Full P&amp;L, balance sheet, cash flow forecast</li>
+          <li>WIP report and job-level KPIs across active projects</li>
+          <li>Risk register, safety scorecard, compliance status</li>
+          <li>Strategic direction, prior-quarter commitments, forward priorities</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- OUTPUTS THAT MATTER -->
+    <h3 style="font-family:var(--font-display); font-size:1.15rem; font-weight:700; color:var(--denim); margin:1.5rem 0 0.85rem;">Outputs That Matter · What Steyn Will See Each Cycle</h3>
+    <p style="font-size:0.88rem; color:var(--gray-dk); max-width:920px; margin-bottom:1rem;">The four groups below are the curated subset that flows from the LV package up to the Six Peak / Steyn board view. Everything inside the Q1 deck supports these; the headline metrics here are what carry the conversation.</p>
+
+    <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:1rem;">
+
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.4rem 1.55rem 1.5rem; box-shadow:0 4px 20px rgba(0,0,0,0.04); position:relative;">
+        <div style="position:absolute; top:0; left:0; height:3px; width:46px; background:var(--rust); border-radius:0 0 4px 0;"></div>
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.16em; color:var(--rust); margin:0.3rem 0 0.35rem;">Group 01</div>
+        <h4 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; color:var(--denim); margin-bottom:0.6rem;">Financial Health</h4>
+        <p style="font-size:0.86rem; color:var(--gray-dk); line-height:1.6; margin-bottom:0.7rem;">YTD and LTM views, vs. budget, with variance commentary. Reconciled across the deck (one value per KPI, period-stamped).</p>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.35rem;">
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Revenue, gross margin, overhead ratio, net margin (YTD + LTM)</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>LTM Adjusted EBITDA</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Operating cash, working capital, balance sheet KPIs (current ratio, days of cash, ROE)</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Quarterly cash-flow forecast plus break-even revenue commentary</li>
+        </ul>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.4rem 1.55rem 1.5rem; box-shadow:0 4px 20px rgba(0,0,0,0.04); position:relative;">
+        <div style="position:absolute; top:0; left:0; height:3px; width:46px; background:var(--rust); border-radius:0 0 4px 0;"></div>
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.16em; color:var(--rust); margin:0.3rem 0 0.35rem;">Group 02</div>
+        <h4 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; color:var(--denim); margin-bottom:0.6rem;">Capacity &amp; Bonding</h4>
+        <p style="font-size:0.86rem; color:var(--gray-dk); line-height:1.6; margin-bottom:0.7rem;">The capacity to absorb new work and the cost of standing it up, including the path to LV-direct bonding referenced in the SPC Extended BD plan.</p>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.35rem;">
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Bonding capacity available and utilization (% of program consumed)</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Cost of bonding (current Krueger spread vs. path to direct LV bonding)</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Travelers conditional approval status on Francis and the next bonded job</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Forward-look on direct-bonding pathway as Wilton and HVN jobs deliver</li>
+        </ul>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.4rem 1.55rem 1.5rem; box-shadow:0 4px 20px rgba(0,0,0,0.04); position:relative;">
+        <div style="position:absolute; top:0; left:0; height:3px; width:46px; background:var(--rust); border-radius:0 0 4px 0;"></div>
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.16em; color:var(--rust); margin:0.3rem 0 0.35rem;">Group 03</div>
+        <h4 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; color:var(--denim); margin-bottom:0.6rem;">Backlog &amp; Pipeline</h4>
+        <p style="font-size:0.86rem; color:var(--gray-dk); line-height:1.6; margin-bottom:0.7rem;">The forward visibility, with shared definitions so backlog and pipeline are not used interchangeably between LV and Steyn.</p>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.35rem;">
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Total backlog (remaining contract value on awarded / contracted projects only)</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Active bid pipeline value and pursuit count, with bid hit rate</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Top client concentration (HVN share of backlog and pipeline)</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Pipeline-to-backlog funnel: tracking, bidding, finalist, awarded, contracted</li>
+        </ul>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.4rem 1.55rem 1.5rem; box-shadow:0 4px 20px rgba(0,0,0,0.04); position:relative;">
+        <div style="position:absolute; top:0; left:0; height:3px; width:46px; background:var(--rust); border-radius:0 0 4px 0;"></div>
+        <div style="font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.16em; color:var(--rust); margin:0.3rem 0 0.35rem;">Group 04</div>
+        <h4 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; color:var(--denim); margin-bottom:0.6rem;">Project Execution &amp; Safety</h4>
+        <p style="font-size:0.86rem; color:var(--gray-dk); line-height:1.6; margin-bottom:0.7rem;">The job-level health of the active book, plus the safety profile that underpins the bonded GC posture.</p>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:0.35rem;">
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Per-project WIP: contract value, change orders, % billed, % complete, GP%, NP%</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Buyout progress and savings per project (where the GMP risk lives)</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>Job-level risk register (low / medium / high) with schedule status per job</li>
+          <li style="padding-left:16px; position:relative; font-size:0.82rem; color:var(--gray-dk); line-height:1.5;"><span style="position:absolute; left:0; top:9px; width:9px; height:2px; background:var(--rust); border-radius:2px;"></span>TRIR, DART, sub injury rates, near-miss tracking (LV 2.0 safety system)</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- TIE-IN -->
+    <div class="callout" style="margin-top:1.5rem;">
+      <strong>How this rolls up to the SPC view Steyn already sees:</strong> The financial outputs above feed directly into the GC Revenue, GC Costs, and Bonding Outstanding lines on the SPC Section 01 KPI tiles, the consolidated cash positions on the Scenario Plan, and the FY 2026 / FY 2027 NI build that drives the Base Case versus Extended BD comparison. Establishing this as the standing reporting set means each future board cycle works off the same definitions and the same artifact, not a fresh assembly.
+    </div>
+  </section>
+
   </div>
 </main>
 
 <!-- DECK FOOTER CONTROLS -->
 <div class="deck-controls">
   <div class="crumb">
-    <span class="ix" id="crumbIx">01 / 05</span>
+    <span class="ix" id="crumbIx">01 / 06</span>
     <span class="name" id="crumbName">Team Update</span>
   </div>
   <div class="kbd-hint">
@@ -723,7 +875,7 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
 <script>
 const slides = document.querySelectorAll('.slide');
 const navBtns = document.querySelectorAll('.deck-nav button');
-const slideNames = ['Team Update', 'Marketing & Website', 'Project Buyout', 'Pending Closings', 'Extended BD'];
+const slideNames = ['Team Update', 'Marketing & Website', 'Project Buyout', 'Pending Closings', 'Extended BD', 'Reporting Outputs'];
 let cur = 0;
 
 function goSlide(i) {
