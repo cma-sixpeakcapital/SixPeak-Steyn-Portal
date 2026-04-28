@@ -100,6 +100,23 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
 .callout.warn { border-left-color:var(--warning); }
 .callout.warn strong { color:#92670a; }
 
+/* PIPELINE SEQUENCING TIMELINE (Slide 05) */
+.pipeline-timeline { background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; padding:1.4rem 1.6rem 1.5rem; box-shadow:0 4px 20px rgba(0,0,0,0.04); margin-top:1rem; }
+.pipeline-timeline .axis { position:relative; height:22px; margin:0 0 0.5rem 270px; border-bottom:1px solid rgba(11,24,51,0.12); }
+.pipeline-timeline .axis span { position:absolute; bottom:5px; font-size:0.65rem; font-weight:700; color:var(--gray-dk); text-transform:uppercase; letter-spacing:0.1em; transform:translateX(-50%); white-space:nowrap; }
+.pipeline-timeline .axis span::after { content:''; position:absolute; left:50%; top:100%; width:1px; height:6px; background:rgba(11,24,51,0.2); transform:translateX(-50%); }
+.pipeline-timeline .row { display:flex; align-items:center; margin-top:0.85rem; gap:1rem; }
+.pipeline-timeline .row-lbl { width:260px; flex-shrink:0; font-size:0.78rem; font-weight:600; color:var(--denim); display:flex; align-items:center; gap:8px; line-height:1.4; }
+.pipeline-timeline .row-lbl .swatch { width:11px; height:11px; border-radius:50%; flex-shrink:0; }
+.pipeline-timeline .row-lbl .count { color:var(--gray-dk); font-weight:500; }
+.pipeline-timeline .track { position:relative; flex:1; height:24px; background:rgba(11,24,51,0.04); border-radius:4px; }
+.pipeline-timeline .dot { position:absolute; top:50%; width:10px; height:10px; border-radius:50%; transform:translate(-50%, -50%); box-shadow:0 0 0 1.5px #FFFFFF; }
+.pipeline-timeline .swatch.denim, .pipeline-timeline .dot.denim { background:var(--denim); }
+.pipeline-timeline .swatch.warn, .pipeline-timeline .dot.warn { background:var(--warning); }
+.pipeline-timeline .swatch.rust, .pipeline-timeline .dot.rust { background:var(--rust); }
+.pipeline-timeline .key-row { font-size:0.78rem; color:var(--gray-dk); margin-top:1rem; padding-top:0.85rem; border-top:1px solid rgba(11,24,51,0.08); line-height:1.6; }
+.pipeline-timeline .key-row strong { color:var(--denim); font-weight:700; }
+
 /* TABLES */
 .tbl { background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.04); }
 .tbl table { width:100%; border-collapse:collapse; font-size:0.88rem; }
@@ -507,6 +524,101 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
 
     <div class="callout">
       <strong>How the three pillars connect:</strong> Wrapping the four closings (Pillar #1) stabilizes the LV roster: the PMs, supers, and back-office that the Extended BD pipeline (Pillar #2) will fill with work. The AI investment (Pillar #3) is what makes that roster capable of carrying $90–100M/yr of construction billing without another headcount step-up. The three pillars chain in order: stabilize the team, fill it with work, scale it with AI.
+    </div>
+
+    <h3 style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; color:var(--denim); margin:1.75rem 0 0.5rem;">When the Deals Sign · Pillar #2 sequencing</h3>
+    <p style="font-size:0.88rem; color:var(--gray-dk); max-width:880px; margin-bottom:0.85rem;">The current book runs through FY27. From there, Pillar #2 (BD build-out) decides whether the line stays at the Breakeven floor (15 signings starting Oct 2028) or hits the Extended BD target (25 signings, ~bimonthly cadence starting a year earlier in Jul 2027).</p>
+
+    <div class="pipeline-timeline">
+      <div class="axis">
+        <span style="left:0%;">FY 2026</span>
+        <span style="left:14.5%;">FY 2027</span>
+        <span style="left:28.9%;">FY 2028</span>
+        <span style="left:43.4%;">FY 2029</span>
+        <span style="left:57.8%;">FY 2030</span>
+        <span style="left:72.3%;">FY 2031</span>
+        <span style="left:86.7%;">FY 2032</span>
+      </div>
+
+      <div class="row">
+        <div class="row-lbl">
+          <span class="swatch denim"></span>
+          <div>In place + 4 pending closings<br><span class="count">9 starts · Apr–Nov 2026</span></div>
+        </div>
+        <div class="track">
+          <span class="dot denim" style="left:0%;" title="Crenshaw · Apr 2026"></span>
+          <span class="dot denim" style="left:0%;" title="Ramsgate · Apr 2026"></span>
+          <span class="dot denim" style="left:0%;" title="Califa · Apr 2026"></span>
+          <span class="dot denim" style="left:0%;" title="Whipple · Apr 2026"></span>
+          <span class="dot denim" style="left:0%;" title="Nelrose · Apr 2026"></span>
+          <span class="dot denim" style="left:3.6%;" title="Francis · Jul 2026"></span>
+          <span class="dot denim" style="left:7.2%;" title="Lexington · Oct 2026"></span>
+          <span class="dot denim" style="left:7.2%;" title="Denny (Riverton) · Oct 2026"></span>
+          <span class="dot denim" style="left:8.4%;" title="Acama · Nov 2026"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="row-lbl">
+          <span class="swatch warn"></span>
+          <div>Breakeven plan · 15 signings<br><span class="count">Oct 2028 → Jun 2032 · holds NI ±$1M of zero</span></div>
+        </div>
+        <div class="track">
+          <span class="dot warn" style="left:36.1%;" title="BE-01 · Oct 2028"></span>
+          <span class="dot warn" style="left:41.0%;" title="BE-02 · Feb 2029"></span>
+          <span class="dot warn" style="left:45.8%;" title="BE-03 · Jun 2029"></span>
+          <span class="dot warn" style="left:50.6%;" title="BE-04 · Oct 2029"></span>
+          <span class="dot warn" style="left:55.4%;" title="BE-05 · Feb 2030"></span>
+          <span class="dot warn" style="left:56.6%;" title="BE-06 · Mar 2030"></span>
+          <span class="dot warn" style="left:60.2%;" title="BE-07 · Jun 2030"></span>
+          <span class="dot warn" style="left:62.7%;" title="BE-08 · Aug 2030"></span>
+          <span class="dot warn" style="left:65.1%;" title="BE-09 · Oct 2030"></span>
+          <span class="dot warn" style="left:69.9%;" title="BE-10 · Feb 2031"></span>
+          <span class="dot warn" style="left:74.7%;" title="BE-11 · Jun 2031"></span>
+          <span class="dot warn" style="left:79.5%;" title="BE-12 · Oct 2031"></span>
+          <span class="dot warn" style="left:81.9%;" title="BE-13 · Dec 2031"></span>
+          <span class="dot warn" style="left:84.3%;" title="BE-14 · Feb 2032"></span>
+          <span class="dot warn" style="left:89.2%;" title="BE-15 · Jun 2032"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="row-lbl">
+          <span class="swatch rust"></span>
+          <div>Extended BD target · 25 signings<br><span class="count">Jul 2027 → Mar 2032 · ~bimonthly cadence</span></div>
+        </div>
+        <div class="track">
+          <span class="dot rust" style="left:18.1%;" title="BD-01 · Jul 2027"></span>
+          <span class="dot rust" style="left:20.5%;" title="BD-02 · Sep 2027"></span>
+          <span class="dot rust" style="left:24.1%;" title="BD-03 · Dec 2027"></span>
+          <span class="dot rust" style="left:27.7%;" title="BD-04 · Mar 2028"></span>
+          <span class="dot rust" style="left:31.3%;" title="BD-05 · Jun 2028"></span>
+          <span class="dot rust" style="left:36.1%;" title="BD-06 · Oct 2028"></span>
+          <span class="dot rust" style="left:39.8%;" title="BD-07 · Jan 2029"></span>
+          <span class="dot rust" style="left:43.4%;" title="BD-08 · Apr 2029"></span>
+          <span class="dot rust" style="left:47.0%;" title="BD-09 · Jul 2029"></span>
+          <span class="dot rust" style="left:49.4%;" title="BD-10 · Sep 2029"></span>
+          <span class="dot rust" style="left:51.8%;" title="BD-11 · Nov 2029"></span>
+          <span class="dot rust" style="left:54.2%;" title="BD-12 · Jan 2030"></span>
+          <span class="dot rust" style="left:56.6%;" title="BD-13 · Mar 2030"></span>
+          <span class="dot rust" style="left:59.0%;" title="BD-14 · May 2030"></span>
+          <span class="dot rust" style="left:61.4%;" title="BD-15 · Jul 2030"></span>
+          <span class="dot rust" style="left:63.9%;" title="BD-16 · Sep 2030"></span>
+          <span class="dot rust" style="left:66.3%;" title="BD-17 · Nov 2030"></span>
+          <span class="dot rust" style="left:68.7%;" title="BD-18 · Jan 2031"></span>
+          <span class="dot rust" style="left:71.1%;" title="BD-19 · Mar 2031"></span>
+          <span class="dot rust" style="left:73.5%;" title="BD-20 · May 2031"></span>
+          <span class="dot rust" style="left:75.9%;" title="BD-21 · Jul 2031"></span>
+          <span class="dot rust" style="left:78.3%;" title="BD-22 · Sep 2031"></span>
+          <span class="dot rust" style="left:80.7%;" title="BD-23 · Nov 2031"></span>
+          <span class="dot rust" style="left:83.1%;" title="BD-24 · Jan 2032"></span>
+          <span class="dot rust" style="left:85.5%;" title="BD-25 · Mar 2032"></span>
+        </div>
+      </div>
+
+      <div class="key-row">
+        <strong>Read across:</strong> Extended BD lights up FY28 with eight signings before the Breakeven plan posts its first deal in Oct 2028. That earlier ramp is the difference between consolidated NI in the $3–4M range (Extended BD) and consolidated NI hovering around zero (Breakeven). Aggregate GMP: <strong>$240M (Breakeven, 15 deals)</strong> vs. <strong>$402M (Extended BD, 25 deals)</strong>. Hover any dot for the deal label and signing month.
+      </div>
     </div>
   </section>
 
