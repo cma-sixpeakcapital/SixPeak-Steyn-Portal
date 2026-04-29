@@ -470,25 +470,45 @@ html, body { font-family:var(--font-primary); background:var(--steel-light); col
     <div class="slide-cover">
       <div class="slide-label">04 · Demo</div>
       <h1 class="title">Live demo <em>·</em> what's been built against the workflows in Slide 02</h1>
-      <p class="lede">A walkthrough of what Jonah and the engineering bench have stood up so far. The recording will be dropped in before May 5; for the meeting we'll run the demo live in the room.</p>
+      <p class="lede">Live demo of what Jonah and the engineering bench have built. Watch the recorded walk-through below, or launch the app directly to walk through it end to end in the room.</p>
     </div>
 
-    <div class="ph-banner">
-      <div class="ic">!</div>
-      <div><strong>Demo placeholder.</strong> Screen recording or Loom link to be dropped in before May 5.</div>
-    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; margin-bottom:1.5rem;">
 
-    <div class="workflow-tiles" style="margin-bottom:1.25rem;">
-      <div class="ph-slot">
-        <span class="ph-tag">Demo · Video</span>
-        <div><strong>Demo Recording</strong></div>
-        <p>Embed the live demo (screen recording, Loom link, or a still gallery) showing what's been built so far. Note which workflow surface(s) it covers and the state of completeness (prototype, internal beta, production-ready).</p>
+      <!-- RECORDED DEMO VIDEO -->
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:14px; box-shadow:0 4px 20px rgba(0,0,0,0.04); overflow:hidden; display:flex; flex-direction:column;">
+        <div style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); padding:1.4rem 1.55rem 1.3rem; position:relative;">
+          <div style="position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--rust) 0%, var(--rust-glow) 50%, transparent 100%);"></div>
+          <div style="font-size:0.64rem; font-weight:700; text-transform:uppercase; letter-spacing:0.22em; color:var(--rust-glow); margin-bottom:0.55rem;">Recorded Demo · Video</div>
+          <div style="font-family:var(--font-display); font-size:1.35rem; font-weight:700; color:var(--ghost-warm); line-height:1.2;">Walk-through of what's been built</div>
+        </div>
+        <div style="padding:1.25rem 1.55rem 1.4rem; flex:1; display:flex; flex-direction:column;">
+          <p style="font-size:0.9rem; color:var(--gray-dk); line-height:1.65; margin-bottom:1.2rem; flex:1;">Recorded walk-through of the workflows Jonah and the engineering bench have stood up. Hosted on LV's SharePoint; opens in a new tab.</p>
+          <a href="https://netorg6073083-my.sharepoint.com/:v:/g/personal/jonah_lvllc_com/IQBj7PbQYP4wT5tBcLAvf9ThAQW6QqMdz8IHMX7RlWa9xO4" target="_blank" style="align-self:flex-start; display:inline-flex; align-items:center; gap:9px; padding:12px 22px; background:var(--rust); color:#FFFFFF; border-radius:8px; text-decoration:none; font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.14em; transition:all 0.15s ease;">
+            <span style="font-size:0.95rem; line-height:1;">▶</span>
+            Watch the demo
+            <span style="font-size:1rem;">↗</span>
+          </a>
+        </div>
       </div>
-      <div class="ph-slot">
-        <span class="ph-tag">What it does</span>
-        <div><strong>Demo Walkthrough Notes</strong></div>
-        <p>Add a short bullet list for the live walk: what the user sees, what the AI does in the background, what the time-savings look like, and where the next iteration is heading.</p>
+
+      <!-- LIVE APP -->
+      <div style="background:#FFFFFF; border:1px solid rgba(11,24,51,0.08); border-radius:14px; box-shadow:0 4px 20px rgba(0,0,0,0.04); overflow:hidden; display:flex; flex-direction:column;">
+        <div style="background:linear-gradient(135deg, var(--denim) 0%, var(--space-muted) 100%); padding:1.4rem 1.55rem 1.3rem; position:relative;">
+          <div style="position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--rust) 0%, var(--rust-glow) 50%, transparent 100%);"></div>
+          <div style="font-size:0.64rem; font-weight:700; text-transform:uppercase; letter-spacing:0.22em; color:var(--rust-glow); margin-bottom:0.55rem;">Live App · For Jonah</div>
+          <div style="font-family:var(--font-display); font-size:1.35rem; font-weight:700; color:var(--ghost-warm); line-height:1.2;">Construction Optimization Tool</div>
+        </div>
+        <div style="padding:1.25rem 1.55rem 1.4rem; flex:1; display:flex; flex-direction:column;">
+          <p style="font-size:0.9rem; color:var(--gray-dk); line-height:1.65; margin-bottom:1.2rem; flex:1;">The live working app Jonah will run in the room. Click to launch in a new tab and walk Steyn through the flow end to end.</p>
+          <a href="https://v0-construction-optimization.vercel.app/" target="_blank" style="align-self:flex-start; display:inline-flex; align-items:center; gap:9px; padding:12px 22px; background:var(--rust); color:#FFFFFF; border-radius:8px; text-decoration:none; font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.14em; transition:all 0.15s ease;">
+            <span style="font-size:0.95rem; line-height:1;">⏵</span>
+            Launch the app
+            <span style="font-size:1rem;">↗</span>
+          </a>
+        </div>
       </div>
+
     </div>
 
     <!-- ENGINEERING BENCH -->
